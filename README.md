@@ -14,13 +14,17 @@ This project demonstrates the deployment of an auto-healing Kubernetes cluster i
 
 ---
 
-![Alt Text](grafana_cpu.png)
+![Alt Text](screenshots/grafana_cpu.png)
+Displays the real-time CPU usage of the Kubernetes nodes and pods, helping to identify any overuse or resource bottlenecks.
 
-![Alt Text](grafana_mem.png)
+![Alt Text](screenshots/grafana_mem.png)
+Visualizes memory usage across pods and nodes, which is critical to ensure that no component is using excessive memory, leading to potential crashes or slowdowns.
 
-![Alt Text](grafana_pod.png)
+![Alt Text](screenshots/grafana_pod.png)
+Tracks the health of pods, showing the number of pods that are running, pending, or in an error state, allowing you to monitor pod availability and take proactive actions like restarting or scaling pods if needed.
 
-![Alt Text](prometheus_stat.png)
+![Alt Text](screenshots/prometheus_stat.png)
+Homepage of the Prometheus dashboard
 
 
 ## **Project Structure**
