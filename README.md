@@ -14,6 +14,15 @@ This project demonstrates the deployment of an auto-healing Kubernetes cluster i
 
 ---
 
+![Alt Text](grafana_cpu.png)
+
+![Alt Text](grafana_mem.png)
+
+![Alt Text](grafana_pod.png)
+
+![Alt Text](prometheus_stat.png)
+
+
 ## **Project Structure**
 
 ```plaintext
